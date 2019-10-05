@@ -1,1 +1,1 @@
-# Laba-5
+https://unshame.github.io/CGDemo/Lab5-Sutherland-Hodgman

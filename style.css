@@ -1,0 +1,65 @@
+header {
+	background-color: #689F38;
+}
+
+.button_control {
+    color: #689F38;
+    width: 190px;
+}
+
+.button_control.active {
+    background: #689F38;
+}
+
+
+.button_control.button_unclip, .button_control.button_unclip::before {
+    border-radius: 24px 0 0 24px;
+    padding-left: 56px;
+}
+
+.button_control.button_unclip::after {
+    top: 0;
+    left: 8px;
+    background: url('../shared/images/unclip_poly_green.png');
+}
+
+.button_control.active.button_unclip::after {
+    background: url('../shared/images/unclip_poly.png');
+}
+
+.button_control.button_clip, .button_control.button_clip::before {
+    border-radius: 0 24px 24px 0;
+    padding-right: 56px;
+}
+
+.button_control.button_clip::after {
+    top: 0;
+    right: 8px;
+    background: url('../shared/images/clip_poly_green.png');
+}
+
+
+.button_control.active.button_clip::after {
+    background: url('../shared/images/clip_poly.png');
+}
+
+.button_floating:active {
+    background: #689F38;
+}
+
+.button_floating.back::after {
+    background: url('../shared/images/back_green.png');
+}
+
+.button_floating.forward::after {
+    background: url('../shared/images/forward_green.png');
+}
+
+.button_floating.home::after {
+    background: url('../shared/images/home_green.png');
+}
+
+.github-corner svg {
+    fill: #689F38;
+}
+
